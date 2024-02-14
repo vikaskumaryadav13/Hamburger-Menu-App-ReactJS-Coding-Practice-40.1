@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.nav-header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  max-width: 460px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 1115px;
+  }
+}
+
+.website-logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.hamburger-icon-button {
+  background-color: transparent;
+  width: 43px;
+  height: 36px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92%;
+  max-width: 460px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    max-width: 1115px;
+  }
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin-top: 35px;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-links-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+.nav-link-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 32px;
+  color: #1e293b;
+}
+
+.nav-link-content {
+  font-family: 'Roboto';
+  font-weight: 550;
+  font-size: 33px;
+  line-height: 1.2;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-content {
+    font-size: 42px;
+  }
+}
